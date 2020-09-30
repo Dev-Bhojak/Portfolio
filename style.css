@@ -8,7 +8,17 @@ a{
 .line{
 display: flex;
 justify-content: space-evenly;
+flex-direction: column;
+}
+.inLine{
+display: flex;
+justify-content: space-evenly;
 }
 .box{
     padding: 1rem;
+}
+.image{
+width : 100%;
+height: auto;
+max-width: 100px;
 }
